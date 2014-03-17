@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B15ED9818D60CE10078AD0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B15ED9718D60CE10078AD0E /* Cocoa.framework */; };
+		8B15EDA218D60CE10078AD0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B15EDA018D60CE10078AD0E /* InfoPlist.strings */; };
+		8B15EDA418D60CE10078AD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15EDA318D60CE10078AD0E /* main.m */; };
+		8B15EDA818D60CE10078AD0E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B15EDA618D60CE10078AD0E /* Credits.rtf */; };
+		8B15EDAB18D60CE10078AD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15EDAA18D60CE10078AD0E /* AppDelegate.m */; };
+		8B15EDAE18D60CE20078AD0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B15EDAC18D60CE20078AD0E /* MainMenu.xib */; };
+		8B15EDB018D60CE20078AD0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B15EDAF18D60CE20078AD0E /* Images.xcassets */; };
+		8B15EDB718D60CE20078AD0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B15EDB618D60CE20078AD0E /* XCTest.framework */; };
+		8B15EDB818D60CE20078AD0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B15ED9718D60CE10078AD0E /* Cocoa.framework */; };
+		8B15EDC018D60CE20078AD0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B15EDBE18D60CE20078AD0E /* InfoPlist.strings */; };
+		8B15EDC218D60CE20078AD0E /* PopUpButtonEtudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15EDC118D60CE20078AD0E /* PopUpButtonEtudeTests.m */; };
+		8B15EDCD18D627BA0078AD0E /* DLPopUpButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15EDCC18D627BA0078AD0E /* DLPopUpButtonManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B15EDB918D60CE20078AD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B15ED8C18D60CE10078AD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B15ED9318D60CE10078AD0E;
+			remoteInfo = PopUpButtonEtude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B15ED9418D60CE10078AD0E /* PopUpButtonEtude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpButtonEtude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B15ED9718D60CE10078AD0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8B15ED9A18D60CE10078AD0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8B15ED9B18D60CE10078AD0E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8B15ED9C18D60CE10078AD0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B15ED9F18D60CE10078AD0E /* PopUpButtonEtude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopUpButtonEtude-Info.plist"; sourceTree = "<group>"; };
+		8B15EDA118D60CE10078AD0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B15EDA318D60CE10078AD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B15EDA518D60CE10078AD0E /* PopUpButtonEtude-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopUpButtonEtude-Prefix.pch"; sourceTree = "<group>"; };
+		8B15EDA718D60CE10078AD0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8B15EDA918D60CE10078AD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B15EDAA18D60CE10078AD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B15EDAD18D60CE20078AD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8B15EDAF18D60CE20078AD0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B15EDB518D60CE20078AD0E /* PopUpButtonEtudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopUpButtonEtudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B15EDB618D60CE20078AD0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8B15EDBD18D60CE20078AD0E /* PopUpButtonEtudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopUpButtonEtudeTests-Info.plist"; sourceTree = "<group>"; };
+		8B15EDBF18D60CE20078AD0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B15EDC118D60CE20078AD0E /* PopUpButtonEtudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUpButtonEtudeTests.m; sourceTree = "<group>"; };
+		8B15EDCB18D627BA0078AD0E /* DLPopUpButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPopUpButtonManager.h; sourceTree = "<group>"; };
+		8B15EDCC18D627BA0078AD0E /* DLPopUpButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPopUpButtonManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B15ED9118D60CE10078AD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15ED9818D60CE10078AD0E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B15EDB218D60CE20078AD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15EDB818D60CE20078AD0E /* Cocoa.framework in Frameworks */,
+				8B15EDB718D60CE20078AD0E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B15ED8B18D60CE10078AD0E = {
+			isa = PBXGroup;
+			children = (
+				8B15ED9D18D60CE10078AD0E /* PopUpButtonEtude */,
+				8B15EDBB18D60CE20078AD0E /* PopUpButtonEtudeTests */,
+				8B15ED9618D60CE10078AD0E /* Frameworks */,
+				8B15ED9518D60CE10078AD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B15ED9518D60CE10078AD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B15ED9418D60CE10078AD0E /* PopUpButtonEtude.app */,
+				8B15EDB518D60CE20078AD0E /* PopUpButtonEtudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B15ED9618D60CE10078AD0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B15ED9718D60CE10078AD0E /* Cocoa.framework */,
+				8B15EDB618D60CE20078AD0E /* XCTest.framework */,
+				8B15ED9918D60CE10078AD0E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B15ED9918D60CE10078AD0E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B15ED9A18D60CE10078AD0E /* AppKit.framework */,
+				8B15ED9B18D60CE10078AD0E /* CoreData.framework */,
+				8B15ED9C18D60CE10078AD0E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8B15ED9D18D60CE10078AD0E /* PopUpButtonEtude */ = {
+			isa = PBXGroup;
+			children = (
+				8B15EDA918D60CE10078AD0E /* AppDelegate.h */,
+				8B15EDAA18D60CE10078AD0E /* AppDelegate.m */,
+				8B15EDAC18D60CE20078AD0E /* MainMenu.xib */,
+				8B15EDAF18D60CE20078AD0E /* Images.xcassets */,
+				8B15ED9E18D60CE10078AD0E /* Supporting Files */,
+				8B15EDCB18D627BA0078AD0E /* DLPopUpButtonManager.h */,
+				8B15EDCC18D627BA0078AD0E /* DLPopUpButtonManager.m */,
+			);
+			path = PopUpButtonEtude;
+			sourceTree = "<group>";
+		};
+		8B15ED9E18D60CE10078AD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B15ED9F18D60CE10078AD0E /* PopUpButtonEtude-Info.plist */,
+				8B15EDA018D60CE10078AD0E /* InfoPlist.strings */,
+				8B15EDA318D60CE10078AD0E /* main.m */,
+				8B15EDA518D60CE10078AD0E /* PopUpButtonEtude-Prefix.pch */,
+				8B15EDA618D60CE10078AD0E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B15EDBB18D60CE20078AD0E /* PopUpButtonEtudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B15EDC118D60CE20078AD0E /* PopUpButtonEtudeTests.m */,
+				8B15EDBC18D60CE20078AD0E /* Supporting Files */,
+			);
+			path = PopUpButtonEtudeTests;
+			sourceTree = "<group>";
+		};
+		8B15EDBC18D60CE20078AD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B15EDBD18D60CE20078AD0E /* PopUpButtonEtudeTests-Info.plist */,
+				8B15EDBE18D60CE20078AD0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B15ED9318D60CE10078AD0E /* PopUpButtonEtude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B15EDC518D60CE20078AD0E /* Build configuration list for PBXNativeTarget "PopUpButtonEtude" */;
+			buildPhases = (
+				8B15ED9018D60CE10078AD0E /* Sources */,
+				8B15ED9118D60CE10078AD0E /* Frameworks */,
+				8B15ED9218D60CE10078AD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopUpButtonEtude;
+			productName = PopUpButtonEtude;
+			productReference = 8B15ED9418D60CE10078AD0E /* PopUpButtonEtude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B15EDB418D60CE20078AD0E /* PopUpButtonEtudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B15EDC818D60CE20078AD0E /* Build configuration list for PBXNativeTarget "PopUpButtonEtudeTests" */;
+			buildPhases = (
+				8B15EDB118D60CE20078AD0E /* Sources */,
+				8B15EDB218D60CE20078AD0E /* Frameworks */,
+				8B15EDB318D60CE20078AD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B15EDBA18D60CE20078AD0E /* PBXTargetDependency */,
+			);
+			name = PopUpButtonEtudeTests;
+			productName = PopUpButtonEtudeTests;
+			productReference = 8B15EDB518D60CE20078AD0E /* PopUpButtonEtudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B15ED8C18D60CE10078AD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ansgar Asseburg";
+				TargetAttributes = {
+					8B15EDB418D60CE20078AD0E = {
+						TestTargetID = 8B15ED9318D60CE10078AD0E;
+					};
+				};
+			};
+			buildConfigurationList = 8B15ED8F18D60CE10078AD0E /* Build configuration list for PBXProject "PopUpButtonEtude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B15ED8B18D60CE10078AD0E;
+			productRefGroup = 8B15ED9518D60CE10078AD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B15ED9318D60CE10078AD0E /* PopUpButtonEtude */,
+				8B15EDB418D60CE20078AD0E /* PopUpButtonEtudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B15ED9218D60CE10078AD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15EDA218D60CE10078AD0E /* InfoPlist.strings in Resources */,
+				8B15EDB018D60CE20078AD0E /* Images.xcassets in Resources */,
+				8B15EDA818D60CE10078AD0E /* Credits.rtf in Resources */,
+				8B15EDAE18D60CE20078AD0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B15EDB318D60CE20078AD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15EDC018D60CE20078AD0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B15ED9018D60CE10078AD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15EDAB18D60CE10078AD0E /* AppDelegate.m in Sources */,
+				8B15EDCD18D627BA0078AD0E /* DLPopUpButtonManager.m in Sources */,
+				8B15EDA418D60CE10078AD0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B15EDB118D60CE20078AD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B15EDC218D60CE20078AD0E /* PopUpButtonEtudeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B15EDBA18D60CE20078AD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B15ED9318D60CE10078AD0E /* PopUpButtonEtude */;
+			targetProxy = 8B15EDB918D60CE20078AD0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B15EDA018D60CE10078AD0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B15EDA118D60CE10078AD0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B15EDA618D60CE10078AD0E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B15EDA718D60CE10078AD0E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8B15EDAC18D60CE20078AD0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B15EDAD18D60CE20078AD0E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8B15EDBE18D60CE20078AD0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B15EDBF18D60CE20078AD0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B15EDC318D60CE20078AD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B15EDC418D60CE20078AD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B15EDC618D60CE20078AD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopUpButtonEtude/PopUpButtonEtude-Prefix.pch";
+				INFOPLIST_FILE = "PopUpButtonEtude/PopUpButtonEtude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B15EDC718D60CE20078AD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopUpButtonEtude/PopUpButtonEtude-Prefix.pch";
+				INFOPLIST_FILE = "PopUpButtonEtude/PopUpButtonEtude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B15EDC918D60CE20078AD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopUpButtonEtude.app/Contents/MacOS/PopUpButtonEtude";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopUpButtonEtude/PopUpButtonEtude-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PopUpButtonEtudeTests/PopUpButtonEtudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B15EDCA18D60CE20078AD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopUpButtonEtude.app/Contents/MacOS/PopUpButtonEtude";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopUpButtonEtude/PopUpButtonEtude-Prefix.pch";
+				INFOPLIST_FILE = "PopUpButtonEtudeTests/PopUpButtonEtudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B15ED8F18D60CE10078AD0E /* Build configuration list for PBXProject "PopUpButtonEtude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B15EDC318D60CE20078AD0E /* Debug */,
+				8B15EDC418D60CE20078AD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B15EDC518D60CE20078AD0E /* Build configuration list for PBXNativeTarget "PopUpButtonEtude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B15EDC618D60CE20078AD0E /* Debug */,
+				8B15EDC718D60CE20078AD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B15EDC818D60CE20078AD0E /* Build configuration list for PBXNativeTarget "PopUpButtonEtudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B15EDC918D60CE20078AD0E /* Debug */,
+				8B15EDCA18D60CE20078AD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B15ED8C18D60CE10078AD0E /* Project object */;
+}
