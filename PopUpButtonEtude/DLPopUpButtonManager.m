@@ -7,15 +7,15 @@
 
 #import "DLPopUpButtonManager.h"
 
-@implementation DLPopUpButtonManager
+@implementation DLPopUpButtonManager {
+    NSArray    *_contentArray;
+    NSUInteger _selectionIndex;
+}
 
 //  all we store is
 //      contentArray
 //      selectionIndex
 //  selectionString is derived and not stored
-
-NSArray    *_contentArray;
-NSUInteger _selectionIndex;
 
 - (NSArray *)contentArray {
     return _contentArray;
