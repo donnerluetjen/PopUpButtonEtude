@@ -24,13 +24,11 @@ I investigated using breakpoints and saw that I have indeed two separate instanc
 but their contentArrays have the same pointer value.
 
 
-Printing description of $20:
-<DLPopUpButtonManager: 0x6080000100b0>
+Printing description of $20: DLPopUpButtonManager: 0x6080000100b0
 
-Printing description of $23:
-<DLPopUpButtonManager: 0x6080000100c0>
+Printing description of $23: DLPopUpButtonManager: 0x6080000100c0
 
-Printing description of $25:
+Printing description of $25: 
 <__NSArrayI 0x600000223ba0>(
 Tall,
 Short
